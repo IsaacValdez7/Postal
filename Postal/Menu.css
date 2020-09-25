@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+   
+}
+
+
+#Menu li 
+{
+  padding:0;  
+  display: inline;
+  
+}
+#Menu a
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-decoration:none;
+   float:left;
+   padding:25px;
+   
+   color: white;
+
+}
+#Menu 
+{
+max-width: 10000px;
+min-height: 70px;
+background: #24C65C
+;
+margin:0 auto
+
+}
+#Menu li a:hover{
+    background-color:#FA8072;
+   
+    padding-bottom: 28px;
+}
+.Titulo h1{
+   
+    text-align: center;
+
+}
+.Titulo {
+    max-width:10000px;
+    min-height: 12px;
+    background: #726035;
+}
+.Box{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color:black;
+    background: #FFF6EF;
+   max-width: 500px;
+   min-height:200px;
+    
+}
+.Box input
+{
+    width:50%;
+    height: 25px;
+    border-radius: 20px;
+}
+.Box :focus
+{
+    background-color:lightyellow ;
+}
+.Boton input{
+  padding-right: 10px;
+    color: black;
+    border: 1px solid #4CAF50;
+    background-color: #E70E0E; 
+    border: none;
+    color:#FFF6EF ;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+  
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
